@@ -1,0 +1,27 @@
+{
+  "name": "mqtt-demo",
+  "version": "1.0.0",
+  "description": "A node.js and MQTT demo",
+  "main": "index.js",
+  "scripts": {
+    "start-publisher": "nodemon publisher.js",
+    "start-consumer": "nodemon subscriber.js"
+  },
+  "keywords": [
+    "Node.js",
+    "MQTT",
+    "Pub/Sub",
+    "IoT",
+    "message",
+    "transport"
+  ],
+  "author": "Alexander Nnakwue",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mqtt": "^4.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
